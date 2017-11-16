@@ -1,1 +1,3 @@
-<?php echo $_SERVER['REMOTE_ADDR'];
+<?php
+header("Content-Type: text/plain");
+echo $_SERVER['REMOTE_ADDR'];
